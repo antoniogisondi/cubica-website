@@ -30,7 +30,7 @@ function Header() {
 
 
     return (
-        <div className='container'>
+        <div className='container-fluid menu'>
             <div className='row'>
                 <div className='col-3 p-3 text-dark'>
                     <h2>CUBICA</h2>

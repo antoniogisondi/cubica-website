@@ -3,12 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /* STYLE HEADER */
-
+.menu{
+    position: fixed; /* Rende la navbar fissata in cima alla pagina */
+    top: 0;
+    width: 100%;
+    background-color: #fcfcfcbd;
+    
+    padding:  0;
+    z-index: 1000; 
+}
 /* effect hover in the button menu */
 .effect-border-bottom :hover{
-    border-bottom: 3px solid rgb(4, 98, 176)
+    border-bottom: 3px solid rgb(18, 148, 253)
 
 }
 
@@ -44,6 +58,15 @@
 .color-logo{
     
     font-size: 100px; /* Dimensione del testo */
+    background: linear-gradient(90deg, rgb(114, 255, 135) 38%, rgba(61,231,255,1) 69%);; /* Gradiente lineare */
+    -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
+    -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
+    background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
+    color: transparent; 
+}
+p{
+    font-size: 50px;
+    /* Dimensione del testo */
     background: linear-gradient(90deg, rgb(114, 255, 135) 38%, rgba(61,231,255,1) 69%);; /* Gradiente lineare */
     -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
     -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
