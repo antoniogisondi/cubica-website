@@ -15,7 +15,7 @@
     position: fixed; /* Rende la navbar fissata in cima alla pagina */
     top: 0;
     width: 100%;
-    background-color: #fcfcfcbd;
+    background-color: #fcfcfcd6;
     
     padding:  0;
     z-index: 1000; 
@@ -57,19 +57,77 @@
 }
 .color-logo{
     
-    font-size: 100px; /* Dimensione del testo */
+     /* Dimensione del testo */
     background: linear-gradient(90deg, rgb(114, 255, 135) 38%, rgba(61,231,255,1) 69%);; /* Gradiente lineare */
     -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
     -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
     background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
     color: transparent; 
 }
-p{
-    font-size: 50px;
+.paragraph{
+    font-size: 45px;
     /* Dimensione del testo */
-    background: linear-gradient(90deg, rgb(114, 255, 135) 38%, rgba(61,231,255,1) 69%);; /* Gradiente lineare */
+
+}
+.title-paragr{
+    font-size: 55px;
+    padding-top: 70px;
+}
+
+.color-paragraph{
+    background:linear-gradient(54deg, rgba(0,0,0,1) 20%, rgba(57,224,112,1) 25%, rgba(76,232,246,1) 51%, rgba(110,243,255,1) 57%, rgba(31,69,73,1) 60%, rgba(0,0,0,1) 61%);
     -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
     -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
     background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
-    color: transparent; 
+    color: transparent;
+      
+   
+   
+ 
 }
+.color-second-paragraph{
+    background:linear-gradient(140deg, rgba(0,0,0,1) 20%, rgba(57,224,112,1) 25%, rgba(76,232,246,1) 51%, rgba(110,243,255,1) 57%, rgba(31,69,73,1) 60%, rgba(0,0,0,1) 61%);
+    -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
+    -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
+    background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
+    color: transparent;
+      
+   
+   
+ 
+}
+.color-point{
+    background-color: rgba(57, 224, 113, 0.699);
+    
+}
+.color-point h1{
+    font-size: 100px;
+    color: rgb(157, 255, 255);
+}
+
+.dimension-description-point{
+    font-size: 35px;
+
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+   
+    .paragraph {
+      font-size: 30px;
+    }
+    .dimension-description-point{
+        font-size: 27px;
+    
+    }
+    .title-paragr{
+        font-size: 38px;
+    }
+    
+  }

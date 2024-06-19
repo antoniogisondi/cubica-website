@@ -33,7 +33,7 @@ function Header() {
         <div className='container-fluid menu'>
             <div className='row'>
                 <div className='col-3 p-3 text-dark'>
-                    <h2>CUBICA</h2>
+                    <h2 >CUBICA</h2>
                 </div>
                 <div className='col-9 d-flex text-center effect-border-bottom text-primary justify-content-end'>
                     <div onClick={mostraNulla}  className='col-2 p-3 '>
