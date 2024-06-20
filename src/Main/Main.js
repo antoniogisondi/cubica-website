@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Main() {
 
 
@@ -7,13 +8,13 @@ function Main() {
 
     return (
         <div>
-            <Jumbotron></Jumbotron>
+            {/* <Jumbotron></Jumbotron> */}
             
 
             <div className='container text-light px-3'>
 
             
-                <h1 className='text-center title-paragr'>I nostri <span className='color-logo'>Obbiettivi</span></h1>
+                <h1 className=' title-paragr'>I nostri <span className='color-logo'>Obbiettivi</span></h1>
 
                 <div className='row paragraph color-paragraph'>
                     
@@ -38,7 +39,7 @@ function Main() {
             <div className='container text-light px-3'>
 
             
-                <h1 className='text-center title-paragr'>Come <span className='color-logo'>Svilupparlo</span></h1>
+                <h1 className=' title-paragr'>Come <span className='color-logo'>Svilupparlo</span></h1>
 
                 <div className='row paragraph color-second-paragraph'>
                     
@@ -133,11 +134,8 @@ function Main() {
 
 function Jumbotron() {
     return (
-        <div className=' mb-5 jumbotron d-flex justify-content-center align-items-center' style={{height:'560px', width:'100%', marginTop:'80px'}}>
-            <div className='text-center'>
-                <h1 style={{fontSize:'100px'}} className='text-light paragraph'>CUBICA</h1>
-                                
-            </div>
+        <div className=' mb-5 jumbotron d-flex justify-content-center align-items-center' style={{height:'560px', width:'100%', }}>
+            
 
         </div>
     )
