@@ -6,7 +6,7 @@ function BackgroundVideo({ onVideoEnd, isVisible }) {
   
 
   return (
-    <div className={`video-background ${!isVisible ? 'd-none' : ''}`}>
+    <div  className={`video-background ${!isVisible ? 'd-none' : ''}`}>
       {isVisible && (
         <video autoPlay muted loop={false} id="background-video" onEnded={onVideoEnd}>
           <source src={videoFile} type="video/mp4" />

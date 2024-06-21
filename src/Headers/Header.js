@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import Socials from './Socials'
+import { Link } from 'react-router-dom'
 import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
 
 function Header() {
@@ -53,7 +53,7 @@ function Header() {
                     <Navbar.Toggle className='bg-secondary m-2' aria-controls="basic-navbar-nav " onClick={() => setExpanded(!expanded)} />
                     <Navbar.Collapse className='justify-content-end'  id="basic-navbar-nav ">
                         <Nav className="ml-auto text-center effect-border-bottom">
-                            <Nav.Link className='text-light'  href="#home">
+                            <Nav.Link className='text-light' to="/" >
                                 
                                     <h3 className=' m-3' >Home</h3>
                                 

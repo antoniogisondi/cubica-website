@@ -39,6 +39,10 @@
 .effect-border-bottom h3:hover {
     border-bottom: none; 
 }
+.header-link{
+    text-decoration: none;
+
+}
 .color-effect {
   
     background-color: rgba(167, 255, 242, 0.979);
