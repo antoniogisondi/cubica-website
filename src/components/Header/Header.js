@@ -49,7 +49,7 @@ function Header() {
         <div className='menu bg-header'>
             <Navbar expanded={expanded} className='bg-header p-0' expand="lg">
 
-                <Navbar.Brand className='text-light p-2' href="#home"><h1>CUBICA</h1></Navbar.Brand>
+                <Navbar.Brand className='text-light p-2+---' to="/"><h1>CUBICA</h1></Navbar.Brand>
 
                 <Navbar.Toggle className='text-light bg-secondary m-2' aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
                 <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav ">
