@@ -2,12 +2,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
+    
+       
+    
 }
+/* @font-face {
+    font-family: 'Course';
+    src: url('./Fonts/Course.ttf') format('truetype');
+    
+    
+    
+} */
+
+/* Utilizzare il nuovo font */
+
+
 
 /* body{
     background-color: black;
@@ -29,16 +45,18 @@
 }
 .bg-header{
     background: #1f1f1f3c;
+    
 }
 /* effect hover in the button menu */
 .effect-border-bottom :hover{
-    border-bottom: 3px solid rgb(246, 246, 246)
-
+   
+    transition: 1s;
+    background:  linear-gradient(90deg, rgb(106, 106, 106) 38%, rgb(70, 70, 70) 69%);
+        -webkit-background-clip: text;
+        color: transparent;
 }
 
-.effect-border-bottom h3:hover {
-    border-bottom: none; 
-}
+
 .header-link{
     text-decoration: none;
 
@@ -75,7 +93,7 @@
 .color-logo{
     
      /* Dimensione del testo */
-    background: linear-gradient(90deg, rgb(114, 255, 135) 38%, rgba(61,231,255,1) 69%);; /* Gradiente lineare */
+    background: linear-gradient(90deg, rgb(132, 132, 132) 38%, rgb(190, 186, 186) 69%);; /* Gradiente lineare */
     -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
     -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
     background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
@@ -89,10 +107,13 @@
 .title-paragr{
     font-size: 55px;
     padding-top: 70px;
+    color: #fff;
+    
+    
 }
 
 .color-paragraph{
-    background:linear-gradient(54deg, rgb(255, 255, 255) 20%, rgba(57,224,112,1) 25%, rgba(76,232,246,1) 51%, rgba(110,243,255,1) 57%, rgb(71, 227, 245) 60%, rgb(255, 255, 255) 61%);
+    background:linear-gradient(54deg, rgb(255, 255, 255) 20%, rgb(132, 132, 132) 25%, rgb(125, 125, 125) 51%, rgb(181, 181, 181) 57%, rgb(192, 192, 192) 60%, rgb(255, 255, 255) 61%);
     -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
     -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
     background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
@@ -103,7 +124,7 @@
  
 }
 .color-second-paragraph{
-    background:linear-gradient(140deg, rgb(255, 255, 255) 20%, rgba(57,224,112,1) 25%, rgba(76,232,246,1) 51%, rgba(110,243,255,1) 57%, rgb(95, 229, 244) 60%, rgb(255, 255, 255) 61%);
+    background:linear-gradient(140deg, rgb(255, 255, 255) 20%, rgb(110, 110, 110) 25%, rgb(125, 125, 125) 51%, rgb(181, 181, 181) 57%, rgb(192, 192, 192) 60%, rgb(255, 255, 255) 61%);
     -webkit-background-clip: text; /* Taglia lo sfondo in base al testo */
     -webkit-text-fill-color: transparent; /* Rende trasparente il colore del testo */
     background-clip: text; /* Taglia lo sfondo in base al testo per i browser che lo supportano */
@@ -133,7 +154,10 @@
 .border-footer{
     border-top: 3px solid white;
 }
-
+.bg-footer{
+    background: rgb(165,164,164);
+    background: linear-gradient(90deg, rgb(118, 118, 118) 0%, rgba(54, 54, 54, 0.991) 100%);
+}
 
 
 

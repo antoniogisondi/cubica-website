@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import './animation.css'
+import './video.css'
 import BackgroundVideo from './BackgroundVideo'
 function Jumbotron() {
 
@@ -16,10 +17,13 @@ function Jumbotron() {
     
     
 
-    <div className='body' style={{ height: '560px', width: '100%', }}>
+    <div className='body' style={{ height: '560px', width: '100%',  }}>
+      
         <BackgroundVideo onVideoEnd={handleVideoEnd} isVisible={isVideoVisible}></BackgroundVideo>
-        <div className='content'>
-          <h1 className={`title ${isVideoVisible ? '' : 'visible'}`}>Cubica
+       
+        {/* <div className='content'>
+          <h1 className={`title ${isVideoVisible ? 'visible' : ''}`}>CUBICA
+          
             <div class="aurora">
               <div class="aurora__item">
               </div>
@@ -31,8 +35,8 @@ function Jumbotron() {
               </div>
             </div>
           </h1>
-        </div>
-      </div>
+        </div> */}
+    </div>
   )
 }
 

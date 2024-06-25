@@ -82,7 +82,7 @@ function Main() {
                 </div>
             </div>
 
-            <div className='container py-5'>
+            {/* <div className='container py-5'>
                 <div className='row'>
                     <div className='col-xl-6 col-12 p-3 pb-5 '>
                         <div className='d-flex justify-content-center'>
@@ -127,19 +127,11 @@ function Main() {
                         
                     
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
 
-function Jumbotron() {
-    return (
-        <div className=' mb-5 jumbotron d-flex justify-content-center align-items-center' style={{height:'560px', width:'100%', }}>
-            
-
-        </div>
-    )
-}
 
 
 

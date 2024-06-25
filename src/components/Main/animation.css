@@ -2,10 +2,10 @@
 
 :root .visible{
 --bg: #03030300;
---clr-1: #00c2ff;
---clr-2: #03ff70;
---clr-3: #0fef78;
---clr-4: #4cc6ff;
+--clr-1: #acacac;
+--clr-2: #a0a0a0;
+--clr-3: #707070;
+--clr-4: #484848ce;
 --blur: 1rem;
 --fs: clamp(3rem, 8vw, 7rem);
 --ls: clamp(-1.75px, -0.25vw,
@@ -34,28 +34,31 @@ box-sizing: border-box;
 
 
 .title {
-font-size: var(--fs);
-font-weight: 800;
-letter-spacing: var(--ls);
+
+
+
 position: relative;
 overflow: hidden;
 background: var(--bg);
 margin: 0;
 
-
+font-size: 0px;
 color: rgba(0, 0, 0, 0);
 transition: color 2s ease-in-out;
 
 }
 
 .title.visible{
- 
+  
+ font-size: var(--fs);
   color: rgb(255, 255, 255);
+  font-weight: 800;
+  letter-spacing: var(--ls);
 }
 
 
 
-.subtitle {
+.content {
 }
 
 

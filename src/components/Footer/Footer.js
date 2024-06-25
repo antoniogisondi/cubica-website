@@ -6,7 +6,7 @@ function Footer() {
            
 
             
-            <footer class=" border-footer bg-secondary text-white mt-5 p-4 text-center">
+            <footer class=" border-footer bg-footer text-white mt-5 p-4 text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">

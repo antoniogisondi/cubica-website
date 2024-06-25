@@ -46,29 +46,29 @@ function Header() {
 
 
 
-        <div className='menu bg-header'>
-            <Navbar expanded={expanded} className='bg-header p-0' expand="lg">
+        <div className='menu mb-5'>
+            <Navbar expanded={expanded} className='bg-header  p-0' expand="lg">
 
-                <Navbar.Brand className='text-light p-2+---' to="/"><h1>CUBICA</h1></Navbar.Brand>
+                <Navbar.Brand className='text-light ps-3' to="/"><h1>CUBICA</h1></Navbar.Brand>
 
                 <Navbar.Toggle className='text-light bg-secondary m-2' aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
                 <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav ">
-                    <Nav className="ml-auto text-center effect-border-bottom">
+                    <Nav className="ml-auto text-center pe-3 effect-border-bottom">
                         <Link className='text-light header-link' to="/">
 
-                            <h3 className=' m-3' >Home</h3>
+                            <h3 className=' p-4 mb-0 ' >Home</h3>
 
                         </Link>
 
                         <Link className='text-light  header-link' to="/about-us">
 
-                            <h3 className=' m-3' >About Us</h3>
+                            <h3 className=' p-4 mb-0' >About Us</h3>
 
                         </Link>
 
                         <Link className='text-light  header-link' to="/contact">
 
-                            <h3 className=' m-3' >Contact</h3>
+                            <h3 className=' p-4 mb-0' >Contact</h3>
 
                         </Link>
                         {/* <Nav.Link className='text-light' href="#link">
